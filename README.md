@@ -1,9 +1,9 @@
 # okta-mcp-server-by-cdata
 CData's Model Context Protocol (MCP) Server for Okta
 
-:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Okta (beta)](https://www.cdata.com/download/download.aspx?sku=KUZM-V&type=beta). 
+:heavy_exclamation_mark: This project builds a read-only MCP server. For full read, write, update, delete, and action capabilities and a simplified setup, check out our free [CData MCP Server for Okta](https://www.cdata.com/drivers/okta/download/mcp/). 
 ## Purpose
-We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Okta supported by the [CData JDBC Driver for Okta](https://www.cdata.com/drivers/okta/jdbc).
+We created this read-only MCP Server to allow LLMs (like Claude Desktop) to query live data Okta supported by the [CData JDBC Driver for Okta](https://www.cdata.com/drivers/okta/jdbc/).
 
 CData JDBC Driver connects to Okta by exposing them as relational SQL models.
 
@@ -20,7 +20,7 @@ This server wraps that driver and makes Okta data available through a simple MCP
       mvn clean install
       ``` 
       This creates the JAR file: CDataMCP-jar-with-dependencies.jar
-2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/okta/download/jdbc](https://www.cdata.com/drivers/okta/download/jdbc)
+2. Download and install the CData JDBC Driver for {source}: [https://www.cdata.com/drivers/okta/download/jdbc](https://www.cdata.com/drivers/okta/download/jdbc/)
 3. License the CData JDBC Driver:
     * Navigate to the `lib` folder in the installation directory, typically:
         * (Windows) `C:\Program Files\CData\CData JDBC Driver for Okta\`
